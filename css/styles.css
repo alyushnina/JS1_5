@@ -1,13 +1,67 @@
 .ch-wrap {
-	width: 800px;
-	height: 800px;
-	border: 1px solid #111;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
 }
-.ch-item {
-	width: 100px;
-	height: 100px;
-	float: left;
+.ch-board {
+	width: 400px;
+	height: 400px;
+	border-color: #111;
+	border-style: solid;
+	top: auto;
+}
+.ch-numbers {
+    height: 400px;
+    width: 50px;
+    box-sizing: border-box;
+}
+.field-numbers {
+    width: 50px;
+    height: 12.5%;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+    padding-left: 0.7em;
+    font-size: 22px;
+
+}
+.ch-letters {
+    width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.field-letters {
+    width: 12.5%;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+    padding-left: 0.7em;
+    font-size: 22px;
+
+}
+.row {
+    height: 12.5%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.field {
+    height: 100%;
+    width: 12.5%;
+    box-sizing: border-box;
+    color: green;
+    font-size: 18px;
+    background-color: white;
 }
 .ch-black {
 	background: #111;
+}
+.figure-word {
+    width: 50px;
+    height: 50px;
 }
